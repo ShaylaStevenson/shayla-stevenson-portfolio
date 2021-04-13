@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/c3c011729d.js" crossorigin="anonymous"></script>
+    <title>Shayla Stevenson</title>
+</head>
+<body>
+    
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <a class="navbar-brand" href="/index.html">
+            <!-- <img src="" width="30" height="30" class="d-inline-block align-top" alt=""> -->
+            Shayla Stevenson
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+        </div>  
+    </nav>
+
+    <!--Header-->
+    <main class="container-md">
+        <div class="row">
+            <div class="col-md-5 ">
+                <h1 class="display-1 p-2 m-2" id="contact-greeting" >It would be great to hear from you</h1>
+                <div id="myInfo" class="m-2 p-2">
+                    <h5>More ways to get in touch</h5>
+                    <p>shayla.rose.stevenson@gmail.com</p>
+                    <p>360 . 265 . 6102</p>
+                    <a href="assets/images/Resume.pdf" target="_blank">View my resume</a>
+                </div>
+            </div>
+    <!--Content Form-->
+            <div class="col-md-7 mt-2 p-2">
+                <form>
+                    <div class="form-group">
+                        <label for="name-input">Name</label>
+                        <input id="name-input" type="name" class="form-control form-control-lg text-muted" name="name" placeholder="You're name here, please.">
+                        <large class="form-text text-muted">Nice to meet you.</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email-input">Email Address</label>
+                        <input id="email-input" type="email" class="form-control form-control-lg text-muted" name="email" placeholder="example@email.com">
+                        <large class="form-text text-muted">Your privacy is important to me.</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone-input">Phone Number</label>
+                        <input id="phone-input" type="tel" class="form-control form-control-lg text-muted" name="phone" placeholder="XXX-XXX-XXXX">
+                        <large class="form-text text-muted"><em>ring...ring...</em>hi</large>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message-input">Message</label>
+                        <textarea id="message-input" class="form-control" rows="6" placeholder="Please provide a brief description of your web service needs. I am here to help!"></textarea>
+                        <large class="form-text text-muted">We're off to a great start!</large>
+                    </div> 
+                    <button type="button" class="btn btn-default form-text" id="submit-button" data-toggle="modal" data-target="#modalCenter">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+        Launch demo modal
+    </button> -->
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="modalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="modalLongTitle">Here's what we got</h5>
+                </div>
+            <div class="modal-body">
+                <p id="confirmName"></p>
+                <p id="confirmEmail"></p>
+                <p id="confirmPhone"></p>
+                <p id="confirmMessage"></p>
+                
+            </div>
+            <div class="modal-footer">
+                <button id="go-back" type="button" class="btn btn-default" data-dismiss="modal">Go back</button>
+                <h4 id="btnQuestion"></h5>
+                <button id="looks-good" type="button" class="btn btn-default" data-dismiss="modal">Looks good</button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="container-fluid-sm custom-footer fixed-bottom p-1">
+        <div class="row">
+            <div class="col-3">
+                <a href="https://www.facebook.com/shayla.stevenson.165" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+
+            <div class="col-3">
+                <a href="https://www.instagram.com/shayla711/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="col-3">
+                <a href="https://github.com/ShaylaStevenson" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+
+            <div class="col-3">
+                <a href="https://www.linkedin.com/in/shayla-stevenson-806143200/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>

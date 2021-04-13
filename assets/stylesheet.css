@@ -1,0 +1,220 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    color: rgb(72, 40, 146);
+    font-family: 'Dosis', sans-serif;
+    background-image: url("images/bamboo-fill.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    padding-top: calc(60px + 2vw);
+    padding-bottom: calc(60px + 1vw);
+    min-width: 100%;
+    min-height: 100%;
+
+}
+/** Navigation Bar **/ 
+.navbar {
+    background-color:rgb(82, 139, 158);
+}
+
+.navbar .navbar-brand {
+    color:darkmagenta;
+    font-size: calc(18px + 1.3vw);
+}
+
+.navbar .navbar-brand:hover {
+    color:rgb(95, 8, 95);
+}
+
+/* .navbar-brand img {
+    width: 4vw;
+    height: 4vw;
+} */
+
+.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: rgb(72, 40, 146);
+    font-size: calc(12px + 1vw);
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    color:rgb(240, 149, 14);
+}
+
+/** Home Page**/
+
+/** Jumbotron **/
+.jumbotron {
+    margin-bottom: calc(0px + 1vw);
+    background-color: rgba(139, 0, 139, .8);
+}
+
+#greeting-div {
+    background-color: lightblue;
+    text-align: end;
+}
+
+#greeting-div h1 {
+    font-size: calc(18px + 4.5vw);
+}
+
+#greeting {
+    color: rgb(240, 149, 14);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 rgb(72, 40, 146), 1px -1px 0 rgb(72, 40, 146), -1px 1px 0 rgb(72, 40, 146), 1px 1px 0 rgb(72, 40, 146);
+}
+
+/** About Me Content **/
+.custom-content-container {
+    background-color:rgba(240, 149, 14, .5); 
+}
+
+.custom-content-head {
+    text-shadow: -1px -1px 0 rgb(152, 148, 144), 1px -1px 0 rgb(152, 148, 144), -1px 1px 0 rgb(240, 149, 14), 1px 1px 0 rgb(240, 149, 14);
+}
+
+.custom-content-container p {
+    background-color: white;
+    color: darkslategrey;  
+    font-size: calc(16px + .5vw); 
+}
+
+/**Portfolio Page**/
+
+/**Header**/
+#portfolio-greeting {
+    border-color:rgb(240, 149, 14);
+    border-width: 15px;
+    border-style: solid;
+    background-color:rgba(173, 216, 230, .5);
+    color:rgb(72, 40, 146);
+    font-size: calc(24px + 3vw);
+    text-align:end;
+}
+
+#custom-portfolio-container {
+    background-image: url("images/office-table.jpg");   
+    background-repeat: no-repeat;
+    background-size: cover;     
+}
+
+/**Projects**/
+.project {
+    color:slategray;
+    text-decoration: none;
+}
+
+.project:hover {
+    color:rgba(240, 149, 14, .5);
+    text-decoration: none;
+}
+
+.project-details {
+    background-color: white;
+    font-size: calc(16px + .5vw);
+    text-align: center;
+    padding: 10px;
+}
+
+.project-links {
+    font-size: calc(14px + .5vw);
+    text-align: center;
+}
+
+.project-links a {
+    color: rgb(72, 40, 146);
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    color:rgba(240, 149, 14, .5);
+    text-decoration: none;
+}
+
+/** Contact Page**/
+
+/**Header**/
+#contact-greeting {
+    border-color:darkmagenta;
+    border-width: 15px;
+    border-style: solid;
+    background-color:lightblue;
+    color:rgb(72, 40, 146);
+    font-size: 5.5vw;
+    text-align:end;
+}
+
+#myInfo {
+    color: slategray;
+    background-color: white;
+    font-size: calc(16px + .5vw);
+    text-align: end;
+    border-color: lightblue;
+    border-width: 15px;
+    border-style: solid;
+    
+}
+
+#myInfo h5 {
+    font-size: calc(22px + .5vw);
+    font-weight: bold;
+}
+
+#myInfo a {
+    color: slategray;
+}
+
+#myInfo a:hover {
+    color: rgb(240, 149, 14);
+    text-decoration: none;
+}
+
+/**Form**/
+.form-text {
+    text-align: end;
+}
+
+form label {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+#submit-button {
+    background-color: white;
+}
+
+#submit-button:hover {
+    color:rgb(240, 149, 14);
+}
+
+#submit-button:focus {
+    color:darkmagenta;
+}
+
+/**Modal**/
+.modal button:hover {
+    color: rgb(240, 149, 14);
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+/** Footer**/
+
+.custom-footer {
+    background-color: lightblue;
+    font-size: calc(24px + 1.5vw);
+    display: flex;
+    justify-content: center;
+}
+
+.custom-footer i {
+    color: rgb(72, 40, 146);
+}
+
+.custom-footer i:hover {
+    color: rgb(240, 149, 14);
+}
+
