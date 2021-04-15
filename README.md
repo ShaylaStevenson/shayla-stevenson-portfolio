@@ -10,6 +10,7 @@
 - [Notes](#notes)
 - [Resources](#resources)
 - [Links](#links)
+- [License](#license)
 # 
 
 ## Introduction
@@ -62,3 +63,7 @@ This application is an updated version of my original portfolio page. The follow
 * Linkedin: https://www.linkedin.com/in/shayla-stevenson-806143200/
 
 * Email: shayla.rose.stevenson@gmail.com
+
+## License
+This project is licensed under the terms of the MIT license. View license at:
+https://opensource.org/licenses/MIT.
