@@ -54,10 +54,11 @@ This application is an updated version of my original portfolio page. The follow
 * Google Fonts
  
 ## Links
-* Visit my new portfolio @ https://shaylastevenson.github.io/shayla-stevenson-portfolio/
+* Visit my personal website @ https://shaylastevenson.github.io/shayla-stevenson-portfolio/
 
-* View Github repository @ https://github.com/ShaylaStevenson/shayla-stevenson-portfolio
+* View my Github profile @ https://github.com/ShaylaStevenson 
 
 ## Contact Me
 * Linkedin: https://www.linkedin.com/in/shayla-stevenson-806143200/
+
 * Email: shayla.rose.stevenson@gmail.com
